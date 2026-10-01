@@ -45,7 +45,7 @@ export function Navbar() {
 
         <div className="flex items-center gap-2">
           <a
-            href={site.github}
+            href={"https://github.com/matteoFS"}
             target="_blank"
             rel="noreferrer"
             aria-label="GitHub"
