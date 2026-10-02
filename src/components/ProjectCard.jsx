@@ -1,4 +1,4 @@
-import { ArrowUpRight, Github } from "lucide-react";
+import { ArrowUpRight, Github, CircleCheck } from "lucide-react";
 import { ButtonLink } from "@/components/Button";
 
 export function ProjectCard({ project }) {
@@ -13,6 +13,12 @@ export function ProjectCard({ project }) {
           height={800}
           className="aspect-[3/2] w-full object-cover transition-transform duration-700 group-hover:scale-105"
         />
+        {project.active ? (
+          <span className="absolute right-4 top-4 inline-flex items-center gap-1.5 rounded-md border border-emerald-500/30 bg-background/90 px-2.5 py-1 font-mono text-[0.7rem] text-emerald-500 backdrop-blur">
+            <CircleCheck className="h-3.5 w-3.5" aria-hidden="true" />
+            Ativo
+          </span>
+        ) : null}
         {project.status ? (
           <span className="absolute left-4 top-4 rounded-md border border-border-strong bg-background/80 px-2.5 py-1 font-mono text-[0.7rem] text-muted-foreground backdrop-blur">
             {project.status}

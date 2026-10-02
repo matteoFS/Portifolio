@@ -1,4 +1,4 @@
-import hoopzoneImage from "@/assets/project-hoopzone.jpg";
+import hoopzoneImage from "@/assets/hoopzone.png";
 import vanmosImage from "@/assets/project-vanmos.jpg";
 
 /**
@@ -20,6 +20,7 @@ import vanmosImage from "@/assets/project-vanmos.jpg";
 export const projects = [
   {
     id: "hoopzone",
+    active: true,
     name: "Hoopzone",
     description:
       "Projeto web desenvolvido para gerenciamento e apresentação de produtos esportivos.",
