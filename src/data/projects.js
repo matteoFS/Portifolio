@@ -27,7 +27,7 @@ export const projects = [
     technologies: ["React.js", "Spring Boot", "MySQL"],
     image: hoopzoneImage,
     repoUrl: "https://github.com/matteoFS/Hoopzone",
-    liveUrl: "https://github.com/",
+    liveUrl: "https://hoopzone.vercel.app/",
     status: "Em desenvolvimento",
   },
   {
