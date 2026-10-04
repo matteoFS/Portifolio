@@ -1,5 +1,5 @@
 import hoopzoneImage from "@/assets/hoopzone.png";
-import vanmosImage from "@/assets/project-vanmos.jpg";
+import frameSixImage from "@/assets/Frame 6.png";
 
 /**
  * Fonte de dados dos projetos.
@@ -20,7 +20,7 @@ import vanmosImage from "@/assets/project-vanmos.jpg";
 export const projects = [
   {
     id: "hoopzone",
-    active: true,
+    active: false,
     name: "Hoopzone",
     description:
       "Projeto web desenvolvido para gerenciamento e apresentação de produtos esportivos.",
@@ -36,7 +36,7 @@ export const projects = [
     description:
       "Sistema desenvolvido como projeto acadêmico para solucionar um problema real através da tecnologia.",
     technologies: ["React.js", "API REST", "Java", "MySQL"],
-    image: vanmosImage,
+    image: frameSixImage,
     repoUrl: "https://github.com/theusll/VanMos",
     liveUrl: "https://github.com/",
     status: "Projeto acadêmico",
