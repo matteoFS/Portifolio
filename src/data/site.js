@@ -1,9 +1,9 @@
 export const site = {
   name: "matteo.dev",
   owner: "Matteo",
-  github: "https://github.com/",
-  linkedin: "https://www.linkedin.com/",
-  email: "contato@matteo.dev",
+  github: "https://github.com/matteoFS",
+  linkedin: "https://www.linkedin.com/in/matheus-fernandes-theus/",
+  email: "theuyop@gmail.com",
 };
 
 export const navLinks = [

@@ -38,7 +38,7 @@ export const projects = [
     technologies: ["React.js", "API REST", "Java", "MySQL"],
     image: frameSixImage,
     repoUrl: "https://github.com/theusll/VanMos",
-    liveUrl: "https://github.com/",
+    liveUrl: "https://github.com/theusll/VanMos",
     status: "Projeto acadêmico",
   },
 ];
